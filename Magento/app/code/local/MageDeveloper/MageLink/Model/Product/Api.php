@@ -283,6 +283,8 @@ class MageDeveloper_MageLink_Model_Product_Api extends Mage_Catalog_Model_Api_Re
                 'product_id' => $product->getId(),
                 'sku'        => $product->getSku(),
                 'name'       => $product->getName(),
+				'description'       => $product->getDescription(),
+                'shortdescription'       => $product->getShortDescription(),
                 'type'       => $product->getTypeId(),
             );
         }
